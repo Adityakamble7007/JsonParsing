@@ -84,6 +84,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     ArticleTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"articleCell"];
     
+    
     if (cell == nil) {
         cell = [[ArticleTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"articleCell"];
     }
